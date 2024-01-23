@@ -1,0 +1,391 @@
+.homePage-wrapper .home {
+  background: url("../assets/img/gray-and-black-map-wallpaper-1024x576_44.jpg");
+  background-position: center;
+  height: 80vh;
+}
+.homePage-wrapper .home .home-2 {
+  padding-top: 8rem;
+}
+
+.valeur-img ul li img {
+  cursor: pointer;
+  transition: all 1s;
+}
+.valeur-img ul li img:hover {
+  border: 7px solid rgb(231, 231, 231);
+  border-radius: 100%;
+  transform: translateY(-5px);
+}
+
+.homePage-wrapper .home h1 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
+
+.homePage-wrapper .home-btn {
+  display: flex;
+  justify-content: center; /* Ajout de cette ligne */
+  align-items: center;
+  padding-top: 1rem;
+}
+.homePage-wrapper .home-btn ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.homePage-wrapper .home-btn ul li .btn-light {
+  color: red;
+}
+.homePage-wrapper .home-btn ul li Button {
+  padding: 0.5rem 2rem;
+}
+.valeurs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding-top: 3rem;
+}
+.valeurs .valeur-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  height: 300px;
+  margin-top: 3rem;
+}
+.valeurs h1 {
+  font-size: 60px;
+}
+
+.valeurs .valeur-img ul {
+  display: flex;
+  list-style: none;
+  gap: 6rem;
+}
+.valeurs .valeur-img ul li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.valeurs .valeur-img ul li span {
+  font-weight: bold;
+}
+.valeurs .valeur-img ul img {
+  width: 160px;
+  height: 160px;
+}
+/* media query valeur */
+@media (max-width: 727px) {
+  .valeurs .valeur-img ul img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+/* amelioratiob de la partie responsive */
+
+@media(max-width : 500px){
+  .homePage-wrapper .home .home-2 h1 {
+   
+    font-size: 28px;
+    padding: 2rem;
+
+  }
+  .valeurs .valeur-img ul  {
+    padding: 2rem;
+    gap: 1rem;
+  }
+
+  .valeurs .valeur-img ul img {
+    width: 100px;
+    height: 100px;
+  }
+  .valeurs .valeur-img ul span {
+    font-size: 12px;
+  }
+  
+.section-about .section2 .about-left p{
+
+margin-right: 14%;
+padding: 2rem;
+}
+
+.section-about .section2 .about-left .about-icon ul {
+flex-wrap: wrap;
+padding-bottom: 2rem;
+
+
+}
+
+.section-about .section2 .about-left .about-icon ul li span {
+  font-size: 8px;
+  margin: 1rem;
+
+}
+
+}
+
+
+
+
+
+
+
+@media (max-width: 599px) {
+  .valeurs .valeur-img ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+  }
+}
+@media (max-width: 503px) {
+  .valeurs .valeur-img ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+}
+
+.evenement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: -3rem;
+}
+.evenement h1 {
+  font-size: 65px;
+  padding-bottom: 2rem;
+}
+.event-carroussel {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+.event-carroussel h1 {
+  position: absolute;
+  top: 0;
+  padding-top: 2rem;
+}
+
+.evenement .carroussel-event {
+  width: 800px;
+  height: 300px;
+  border: 1px solid black;
+  text-align: center;
+}
+.carroussel-event h2 {
+  font-size: 30px;
+}
+
+/* section a propos */
+
+.section-about h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.section-about .about-left {
+  display: flex;
+  flex: 1.5;
+  padding: 2rem;
+  margin-left: 4rem;
+}
+.section-about .about-left p {
+  color: white;
+}
+.section-about .about-left span {
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  gap: 1rem;
+}
+
+.about-left p .lire-suite {
+  font-size: 15px;
+  cursor: pointer;
+  color: rgb(255, 54, 54);
+}
+
+.section-about .about-right {
+  display: flex;
+    flex: 1;
+}
+
+.section-about .about-right img {
+  width: 320px;
+  height: 320px;
+  margin-top: -10 rem;
+}
+
+.about-icon ul {
+  display: flex;
+
+  list-style: none;
+  gap: 2rem;
+}
+.about-icon ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  text-align: center;
+}
+.about-icon ul li img {
+  width: 17px;
+  height: 20px;
+  transition: all 1s;
+}
+
+.about-icon ul li img:hover {
+  transform: translateY(-5px);
+}
+
+.about-icon ul li span:hover {
+  color: red;
+}
+
+.about-icon .circle {
+  border: 2px solid red;
+  width: 34px;
+  height: 35px;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.event-carroussel {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(234, 227, 219);
+}
+
+.plaquette {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.plaquette ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 2rem;
+  gap: 5rem;
+}
+.plaquette ul li p {
+  font-size: 22px;
+}
+
+.plaquette ul img {
+  width: 100px;
+  height: 100px;
+}
+
+.plaquette ul .file {
+  cursor: pointer;
+  transition: all 1s;
+}
+.plaquette ul .file:hover {
+  transform: translateY(-10px);
+}
+
+/* media query plawuettet */
+@media (max-width: 703px) {
+  .plaquette ul li p {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 631px) {
+  .plaquette ul li p {
+    font-size: 17px;
+  }
+  .plaquette ul img {
+    width: 70px;
+    height: 70px;
+  }
+  .plaquette ul {
+    gap: 2rem;
+  }
+}
+
+.news h1 {
+  position: absolute;
+  top: 0;
+  padding-top: 2rem;
+  font-weight: bold;
+}
+.news {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* media query */
+@media (max-width: 1077px) {
+  .section-about .about-right img {
+    width: 260px;
+    height: 260px;
+  }
+}
+
+@media (max-width: 995px) {
+  .section-about .about-right img {
+    display: none;
+  }
+}
+
+@media (max-width: 690px) {
+  .section-about .section2 .about-left p {
+    font-size: 12px;
+    width: 400px;
+    text-align: center;
+  }
+  .section-about .section2 .about-left {
+    align-items: center
+  }
+
+  .section-about .section2 .about-left .about-icon ul {
+    gap: 1rem;
+  }
+}
+@media (max-width: 614px) {
+  .section-about .section2 .about-left .about-icon ul {
+    gap: 0.4rem;
+    margin-right: 5rem;
+  }
+}
+
+.section-about {
+  position: relative;
+  background-color: black;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-about .section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-left {
+  flex-direction: column;
+}

@@ -1,0 +1,223 @@
+[
+  
+    {
+      "author": "Saadi",
+      "country": "Persia, Persian Empire",
+      "imageLink": "images/bostan.jpg",
+      "language": "Persian",
+      "link": "https://en.wikipedia.org/wiki/Bustan_(book)\n",
+      "pages": 298,
+      "publicationTitle": "Panel sur la sécurité organisé par le centre GS7Solutions le 19 Janvier 2019 au cercle messe des officiers",
+      "year": 1257
+    },
+    {
+      "author": "Tayeb Salih",
+      "country": "Sudan",
+      "imageLink": "images/season-of-migration-to-the-north.jpg",
+      "language": "Arabic",
+      "link": "https://en.wikipedia.org/wiki/Season_of_Migration_to_the_North\n",
+      "pages": 139,
+      "publicationTitle": "Contribution du Colonel (er) Seyni Cissé Diop au colloque du CESDS de Ouagadougou le 06 Septembre 2017",
+      "year": 1966
+    },
+    {
+      "author": "Jos\u00e9 Saramago",
+      "country": "Portugal",
+      "imageLink": "images/blindness.jpg",
+      "language": "Portuguese",
+      "link": "https://en.wikipedia.org/wiki/Blindness_(novel)\n",
+      "pages": 352,
+      "publicationTitle": "La géopolitique de l’Afrique de l’Ouest – Conférence au profit des attachés militaires francophones prononcée par le colonel (er) Seyni Cissé Diop à Dakar, le 08 mai 2017 – 3ème partie : Dynamiques, Perspectives, Solutions et Conclusion",
+      "year": 1995
+    },
+    {
+      "author": "William Shakespeare",
+      "country": "England",
+      "imageLink": "images/hamlet.jpg",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/Hamlet\n",
+      "pages": 432,
+      "publicationTitle": "La géopolitique de l’Afrique de l’Ouest – Conférence au profit des attachés militaires francophones prononcée par le colonel (er) Seyni Cissé Diop à Dakar, le 08 mai 2017 – 2ème Partie :Les espaces de l’Afrique de l’Ouest et les représentations des acteurs",
+      "year": 1603
+    },
+    {
+      "author": "William Shakespeare",
+      "country": "England",
+      "imageLink": "images/king-lear.jpg",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/King_Lear\n",
+      "pages": 384,
+      "publicationTitle": "King Lear",
+      "year": 1608
+    },
+    {
+      "author": "William Shakespeare",
+      "country": "England",
+      "imageLink": "images/othello.jpg",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/Othello\n",
+      "pages": 314,
+      "publicationTitle": "Othello",
+      "year": 1609
+    },
+    {
+      "author": "Sophocles",
+      "country": "Greece",
+      "imageLink": "images/oedipus-the-king.jpg",
+      "language": "Greek",
+      "link": "https://en.wikipedia.org/wiki/Oedipus_the_King\n",
+      "pages": 88,
+      "publicationTitle": "Oedipus the King",
+      "year": -430
+    },
+    {
+      "author": "Stendhal",
+      "country": "France",
+      "imageLink": "images/le-rouge-et-le-noir.jpg",
+      "language": "French",
+      "link": "https://en.wikipedia.org/wiki/The_Red_and_the_Black\n",
+      "pages": 576,
+      "publicationTitle": "The Red and the Black",
+      "year": 1830
+    },
+    {
+      "author": "Laurence Sterne",
+      "country": "England",
+      "imageLink": "images/the-life-and-opinions-of-tristram-shandy.jpg",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/The_Life_and_Opinions_of_Tristram_Shandy,_Gentleman\n",
+      "pages": 640,
+      "publicationTitle": "The Life And Opinions of Tristram Shandy",
+      "year": 1760
+    },
+    {
+      "author": "Italo Svevo",
+      "country": "Italy",
+      "imageLink": "images/confessions-of-zeno.jpg",
+      "language": "Italian",
+      "link": "https://en.wikipedia.org/wiki/Zeno%27s_Conscience\n",
+      "pages": 412,
+      "publicationTitle": "Confessions of Zeno",
+      "year": 1923
+    },
+    {
+      "author": "Jonathan Swift",
+      "country": "Ireland",
+      "imageLink": "images/gullivers-travels.jpg",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels\n",
+      "pages": 178,
+      "publicationTitle": "Gulliver's Travels",
+      "year": 1726
+    },
+    {
+      "author": "Leo Tolstoy",
+      "country": "Russia",
+      "imageLink": "images/war-and-peace.jpg",
+      "language": "Russian",
+      "link": "https://en.wikipedia.org/wiki/War_and_Peace\n",
+      "pages": 1296,
+      "publicationTitle": "War and Peace",
+      "year": 1867
+    },
+    {
+      "author": "Leo Tolstoy",
+      "country": "Russia",
+      "imageLink": "images/anna-karenina.jpg",
+      "language": "Russian",
+      "link": "https://en.wikipedia.org/wiki/Anna_Karenina\n",
+      "pages": 864,
+      "publicationTitle": "Anna Karenina",
+      "year": 1877
+    },
+    {
+      "author": "Leo Tolstoy",
+      "country": "Russia",
+      "imageLink": "images/the-death-of-ivan-ilyich.jpg",
+      "language": "Russian",
+      "link": "https://en.wikipedia.org/wiki/The_Death_of_Ivan_Ilyich\n",
+      "pages": 92,
+      "publicationTitle": "The Death of Ivan Ilyich",
+      "year": 1886
+    },
+    {
+      "author": "Mark Twain",
+      "country": "United States",
+      "imageLink": "images/the-adventures-of-huckleberry-finn.jpg",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn\n",
+      "pages": 224,
+      "publicationTitle": "The Adventures of Huckleberry Finn",
+      "year": 1884
+    },
+    {
+      "author": "Valmiki",
+      "country": "India",
+      "imageLink": "images/ramayana.jpg",
+      "language": "Sanskrit",
+      "link": "https://en.wikipedia.org/wiki/Ramayana\n",
+      "pages": 152,
+      "publicationTitle": "Ramayana",
+      "year": -450
+    },
+    {
+      "author": "Virgil",
+      "country": "Roman Empire",
+      "imageLink": "images/the-aeneid.jpg",
+      "language": "Classical Latin",
+      "link": "https://en.wikipedia.org/wiki/Aeneid\n",
+      "pages": 442,
+      "publicationTitle": "The Aeneid",
+      "year": -23
+    },
+    {
+      "author": "Vyasa",
+      "country": "India",
+      "imageLink": "images/the-mahab-harata.jpg",
+      "language": "Sanskrit",
+      "link": "https://en.wikipedia.org/wiki/Mahabharata\n",
+      "pages": 276,
+      "publicationTitle": "Mahabharata",
+      "year": -700
+    },
+    {
+      "author": "Walt Whitman",
+      "country": "United States",
+      "imageLink": "images/leaves-of-grass.jpg",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/Leaves_of_Grass\n",
+      "pages": 152,
+      "publicationTitle": "Leaves of Grass",
+      "year": 1855
+    },
+    {
+      "author": "Virginia Woolf",
+      "country": "United Kingdom",
+      "imageLink": "images/mrs-dalloway.jpg",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/Mrs_Dalloway\n",
+      "pages": 216,
+      "publicationTitle": "Mrs Dalloway",
+      "year": 1925
+    },
+    {
+      "author": "Virginia Woolf",
+      "country": "United Kingdom",
+      "imageLink": "images/to-the-lighthouse.jpg",
+      "language": "English",
+      "link": "https://en.wikipedia.org/wiki/To_the_Lighthouse\n",
+      "pages": 209,
+      "publicationTitle": "To the Lighthouse",
+      "year": 1927
+    },
+    {
+      "author": "Marguerite Yourcenar",
+      "country": "France/Belgium",
+      "imageLink": "images/memoirs-of-hadrian.jpg",
+      "language": "French",
+      "link": "https://en.wikipedia.org/wiki/Memoirs_of_Hadrian\n",
+      "pages": 408,
+      "publicationTitle": "Memoirs of Hadrian",
+      "year": 1951
+    }
+  ]
