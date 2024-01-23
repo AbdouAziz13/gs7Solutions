@@ -39,8 +39,6 @@ import Updatepubliction from "./admin/pages/adminSections/Updatepubliction";
 import UnikPublication from "./pages/UnikPublication";
 import EventCalendar from "./admin/pages/adminSections/EventCalendar";
 import { CalendarContextProvider } from "./context/CalendarContext";
-import { authContext } from "./context/AuthContext";
-import { useState, useEffect } from "react";
 import Unfound from "./pages/Unfound";
 import ScrollToTop from "./components/ScrollToTop";
 AOS.init();

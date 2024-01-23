@@ -29,14 +29,14 @@ router.post("/", async (req, res) => {
 
     const newsletterSubscribers = await NewsLetterModel.find({});
 
-    const mailOptions = {
-      from: process.env.EMAIL_USER,
-      subject: "Nouvelle publication sur notre site",
-      html: `
-      <p>Une nouvelle publication est disponible sur notre site.</p>
-      <p>Titre: <a href="http://localhost:3000/publications/${publicationUrl}">${title}</a></p>
-    `,
-    };
+    // const mailOptions = {
+    //   from: process.env.EMAIL_USER,
+    //   subject: "Nouvelle publication sur notre site",
+    //   html: `
+    //   <p>Une nouvelle publication est disponible sur notre site.</p>
+    //   <p>Titre: <a href="http://localhost:3000/publications/${publicationUrl}">${title}</a></p>
+    // `,
+    // };
 
     for (const subscriber of newsletterSubscribers) {
       mailOptions.to = subscriber.newsLetterEmail;

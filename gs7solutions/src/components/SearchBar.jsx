@@ -1,10 +1,8 @@
 import React, { useState, useContext } from "react";
 import { InputText } from "primereact/inputtext";
-import { useNavigate } from "react-router-dom";
 import { publicationContext } from "../context/CreatePublicationContext";
 
 const SearchBar = ({ placeholder, data, listPublications }) => {
-  const navigate = useNavigate()
   const [filterData, setFilterData] = useState([]);
 
   const handleFilter = (e) => {
@@ -37,12 +35,12 @@ const SearchBar = ({ placeholder, data, listPublications }) => {
         <div className="  w-[300px] flex flex-col gap-[30px]  mt-[20px] p-4 shadow-md  overflow-y-auto  rounded-sm border">
           {filterData.slice(0, 5).map((value, key) => {
             return (
-              <button
+             <a href={`/publications/${value.publicationUrl}`}>
+             <button
               className="mb-10 bg-gray-100 "
                 onClick={() => {
                     setPublicationUnikId(value._id);
                     localStorage.setItem("publicationUnikId", value._id);
-                    navigate(`/publications/${value.publicationUrl}`);
                   }}
           
               >
@@ -53,6 +51,9 @@ const SearchBar = ({ placeholder, data, listPublications }) => {
                   {value.title}
                 </p>
               </button>
+             </a>
+
+              
             );
           })}
         </div>

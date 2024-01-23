@@ -45,6 +45,7 @@ const UnikPublication = () => {
         <div className="md:col-span-2 p-3 border-r">
           <h1 className=" font-bold text-xl md:text-xl border-b-2 md:ml-[80px] border-red-500 my-2  w-fit ">
             {t(unikPublictionContent.title)}  
+          
           </h1>
           <div
             className="p-7 md:px-10 text-justify"

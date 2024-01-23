@@ -95,8 +95,8 @@ const RightPageComponants = () => {
       .then((res) => setListOfEvent(res.data));
 
     console.log(listPublications);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+
+  }, [listPublications]);
 
   // invevrs order
   const sortedPublications = [...listPublications].sort((a, b) => {
@@ -120,16 +120,21 @@ const RightPageComponants = () => {
         {sortedPublications.slice(0, 5).map((publication) => {
           return (
             <div key={publication._id} className="flex flex-col gap-2">
-              <button
+
+
+           
+            <a  href={`/publications/${publication.publicationUrl}`}>
+            <button
                 onClick={() => {
                   setPublicationUnikId(publication._id);
                   localStorage.setItem("publicationUnikId", publication._id);
-                  navigate(`/publications/${publication.publicationUrl}`);
+                 
                 }}
                 className="hover:text-black font-semibold no-underline text-gray-500 md:max-w-[200px] md:text-start"
               >
                 {t(publication.title)}
               </button>
+            </a>
             </div>
           );
         })}

@@ -7,7 +7,7 @@ import Formulaire from "./Formulaire";
 import arrow from "../assets/icons/arrow.svg";
 import file from "../assets/icons/file.svg";
 import { useNavigate } from "react-router-dom";
-import video from "../assets/video (2160p).mp4";
+import video from "../assets/img/video(2160p).mp4"
 import { Link } from "react-scroll";
 import { AboutData } from "../helpers/AboutData";
 import { useTranslation } from "react-i18next";
